@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.current {
+  color: green;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 15vh;
+  align-items: center;
+}
+
+.logo {
+  text-align: center;
+  margin-left: 100px;
+}
+.login {
+  width: 250px;
+}
+.login img{
+  width: 12px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: gray; */
+  /* width: 500px; */
+  gap: 100px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+header img {
+  width: 5%;
+}
+header a {
+  text-decoration: none;
+}
+
+.success h1 {
+  font-size: 120px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+}
+
+.bg-img {
+  overflow: hidden;
+  width: 100%;
+  height: 85vh;
+  background-color: #cccccc;
+  background-image: url("https://i.pinimg.com/originals/67/a0/15/67a01585a62cab6d06768af795266d34.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.success {
+  margin-top: 100px;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.button-27 {
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-width: 0;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  height: 40px;
+  width: 150px;
+  will-change: transform;
+  margin-top: 20px;
+}
+
+.button-27:disabled {
+  pointer-events: none;
+}
+
+.button-27:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-27:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.chat-icon {
+  width: 15px;
+  background-color: transparent;
+}
+
+.chatbox {
+  position: fixed;
+  bottom: 1px;
+  left: 80%;
+}
+
+.about_container {
+  display: flex;
+  
+}
+
+.about {
+  width: 50vw;
+  height: 570px;
+  display: flex;
+  justify-content: center;
+}
+
+.about_text {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  height: 570px;
+  margin-top: 100px;
+}
+
+
+.profile_image {
+  width: 50vw;
+  height: 570px;
+}
+
+.profile_image img {
+  width: 100%;
+}
+
+/* ___________ services page ______________ */
+
+
+.bg-img-service {
+  overflow: hidden;
+  width: 100%;
+  height: 85vh;
+  background-color: #cccccc;
+  background-image: url("https://i.pinimg.com/originals/67/a0/15/67a01585a62cab6d06768af795266d34.jpg");
+}
+
+.service-text {
+  margin-left: 50px;
+  font-size: 24px;
+}
+
+.service-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.service-nav {
+  display: flex;
+  gap: 80px;
+}
+
+.service-nav a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
+.service-card-list {
+  display: flex;
+  gap: 20px;
+}
+
+.service-card-bg {
+  width: 280px;
+  height: 310px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-card {
+  width: 190px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.service-card p,h2 {
+  text-align: center;
+}
+
+
